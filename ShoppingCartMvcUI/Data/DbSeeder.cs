@@ -28,7 +28,7 @@ namespace ShoppingCartMvcUI.Data
             {
                 await userMgr.CreateAsync(admin, "Admin@123");
                 await userMgr.AddToRoleAsync(admin, Roles.Admin.ToString());
-            }  
+            }   
         
         }
     }

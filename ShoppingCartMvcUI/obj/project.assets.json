@@ -11060,11 +11060,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dev\\ShoppingCartMvcUI\\ShoppingCartMvcUI\\ShoppingCartMvcUI.csproj",
+      "projectUniqueName": "C:\\Dev\\AlxAhS\\ShoppingCart\\ShoppingCartMvcUI\\ShoppingCartMvcUI.csproj",
       "projectName": "ShoppingCartMvcUI",
-      "projectPath": "C:\\Dev\\ShoppingCartMvcUI\\ShoppingCartMvcUI\\ShoppingCartMvcUI.csproj",
+      "projectPath": "C:\\Dev\\AlxAhS\\ShoppingCart\\ShoppingCartMvcUI\\ShoppingCartMvcUI.csproj",
       "packagesPath": "C:\\Users\\work_AhT\\.nuget\\packages\\",
-      "outputPath": "C:\\Dev\\ShoppingCartMvcUI\\ShoppingCartMvcUI\\obj\\",
+      "outputPath": "C:\\Dev\\AlxAhS\\ShoppingCart\\ShoppingCartMvcUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\work_AhT\\AppData\\Roaming\\NuGet\\NuGet.Config",
