@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1pCUn2UoCkbXeEqcxOZyoqcupWDWFTdlmLy4tmm7I24=",
+  "Hash": "T4O82Zu1f3RqtNqZXeV8nDavlsvPOOvJP3jUyp3Hj7c=",
   "Source": "ShoppingCartMvcUI",
   "BasePath": "_content/ShoppingCartMvcUI",
   "Mode": "Default",
@@ -83,6 +83,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Dev\\AlxAhS\\ShoppingCart\\ShoppingCartMvcUI\\wwwroot\\images\\No_image.jpg",
+      "SourceId": "ShoppingCartMvcUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Dev\\AlxAhS\\ShoppingCart\\ShoppingCartMvcUI\\wwwroot\\",
+      "BasePath": "_content/ShoppingCartMvcUI",
+      "RelativePath": "images/No_image.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\No_image.jpg"
+    },
+    {
+      "Identity": "C:\\Dev\\AlxAhS\\ShoppingCart\\ShoppingCartMvcUI\\wwwroot\\images\\thehobbit.jpg",
+      "SourceId": "ShoppingCartMvcUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Dev\\AlxAhS\\ShoppingCart\\ShoppingCartMvcUI\\wwwroot\\",
+      "BasePath": "_content/ShoppingCartMvcUI",
+      "RelativePath": "images/thehobbit.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\thehobbit.jpg"
     },
     {
       "Identity": "C:\\Users\\work_AhT\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\css\\site.css",

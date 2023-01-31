@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Dev\\AlxAhS\\ShoppingCart\\ShoppingCartMvcUI\\wwwroot\\images\\No_image.jpg",
+      "PackagePath": "staticwebassets\\images\\No_image.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\AlxAhS\\ShoppingCart\\ShoppingCartMvcUI\\wwwroot\\images\\thehobbit.jpg",
+      "PackagePath": "staticwebassets\\images\\thehobbit.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.ShoppingCartMvcUI.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

@@ -3,9 +3,11 @@
     "",
     "\\ShoppingCartMvcUI",
     "\\ShoppingCartMvcUI\\Data",
+    "\\ShoppingCartMvcUI\\Repositories",
     "\\ShoppingCartMvcUI\\Views",
-    "\\ShoppingCartMvcUI\\Views\\Home"
+    "\\ShoppingCartMvcUI\\Views\\Home",
+    "\\ShoppingCartMvcUI\\Views\\Shared"
   ],
-  "SelectedNode": "\\ShoppingCartMvcUI\\Views\\Home\\Index.cshtml",
+  "SelectedNode": "\\ShoppingCartMvcUI\\Views\\Home\\Privacy.cshtml",
   "PreviewInSolutionExplorer": false
 }
