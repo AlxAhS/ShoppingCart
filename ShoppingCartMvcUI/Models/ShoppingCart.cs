@@ -12,5 +12,6 @@ namespace ShoppingCartMvcUI.Models
 
         public bool Isdeleted { get; set; } = false;
 
+        public ICollection<CartDetail> CartDetails { get; set; }
     }
 }
