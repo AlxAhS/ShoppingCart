@@ -5,9 +5,10 @@
     "\\ShoppingCartMvcUI\\Data",
     "\\ShoppingCartMvcUI\\Repositories",
     "\\ShoppingCartMvcUI\\Views",
+    "\\ShoppingCartMvcUI\\Views\\Cart",
     "\\ShoppingCartMvcUI\\Views\\Home",
     "\\ShoppingCartMvcUI\\Views\\Shared"
   ],
-  "SelectedNode": "\\ShoppingCartMvcUI\\Views\\Home\\Privacy.cshtml",
+  "SelectedNode": "\\ShoppingCartMvcUI\\Repositories\\CartRepository.cs",
   "PreviewInSolutionExplorer": false
 }

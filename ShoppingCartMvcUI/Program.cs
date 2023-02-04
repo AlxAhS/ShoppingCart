@@ -1,8 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using ShoppingCartMvcUI;
-using ShoppingCartMvcUI.Data;
-using ShoppingCartMvcUI.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,9 +18,9 @@ builder.Services
 builder.Services.AddControllersWithViews();
 builder.Services.AddTransient<IHomeRepository, HomeRepository>();
 builder.Services.AddTransient<ICartRepository, CartRepository>();
-
+//builder.Services.AddTransient<IUserOrderRepository, UserOrderRepository>();
 var app = builder.Build();
-//using (var scope = app.Services.CreateScope()) 
+//using(var scope = app.Services.CreateScope())
 //{
 //    await DbSeeder.SeedDefaultData(scope.ServiceProvider);
 //}

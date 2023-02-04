@@ -1,12 +1,14 @@
-﻿using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
-
+﻿
 namespace ShoppingCartMvcUI
 {
     public interface ICartRepository
     {
-        Task<bool> AddItem(int bookId, int qty);
-        Task<bool> RemoveItem(int bookId);
-        Task<IEnumerable<ShoppingCart>> GetUserCart(); 
+        Task<int> AddItem(int bookId, int qty);
+        Task<int> RemoveItem(int bookId);
+        Task<ShoppingCart> GetUserCart();
+        Task<ShoppingCart> GetCart(string userId);
+        Task<int> GetCartItemCount(string userId = "");
+
+        Task<bool> DoCheckout();
     }
 }
