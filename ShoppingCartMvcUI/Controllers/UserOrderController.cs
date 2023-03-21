@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using ShoppingCartMvcUI.Repositories.Interfaces;
 
 namespace ShoppingCartMvcUI.Controllers
 {

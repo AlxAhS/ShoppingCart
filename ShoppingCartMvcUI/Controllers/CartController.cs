@@ -1,8 +1,9 @@
 ﻿using Microsoft.AspNetCore.Authorization;
+using ShoppingCartMvcUI.Repositories.Interfaces;
 
 namespace ShoppingCartMvcUI.Controllers
 {
-	[Authorize]
+    [Authorize]
 	public class CartController : Controller
 	{
 		private readonly ICartRepository _cartRepo;

@@ -1,4 +1,6 @@
 ﻿
+using ShoppingCartMvcUI.Repositories.Interfaces;
+
 namespace ShoppingCartMvcUI.Repositories
 {
     public class HomeRepository : IHomeRepository

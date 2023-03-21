@@ -1,10 +1,11 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using ShoppingCartMvcUI.Repositories.Interfaces;
 
 namespace ShoppingCartMvcUI.Repositories
 {
-	public class CartRepository : ICartRepository
+    public class CartRepository : ICartRepository
 	{
 		private readonly ApplicationDbContext _dbContext;
 		private readonly UserManager<IdentityUser> _userManager;
@@ -50,7 +51,7 @@ namespace ShoppingCartMvcUI.Repositories
 						BookId = bookId,
 						ShoppingCartId = cart.Id,
 						Quantity = qty,
-						UnitPrice = book.Price  // it is a new line after update
+						UnitPrice = book.Price  
 					};
 					_dbContext.CartDetails.Add(cartItem);
 				}

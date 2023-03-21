@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using ShoppingCartMvcUI.Repositories.Interfaces;
 
 namespace ShoppingCartMvcUI.Repositories
 {

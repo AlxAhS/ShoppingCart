@@ -2,13 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\ShoppingCartMvcUI",
-    "\\ShoppingCartMvcUI\\Data",
-    "\\ShoppingCartMvcUI\\Repositories",
-    "\\ShoppingCartMvcUI\\Views",
-    "\\ShoppingCartMvcUI\\Views\\Cart",
-    "\\ShoppingCartMvcUI\\Views\\Home",
-    "\\ShoppingCartMvcUI\\Views\\Shared"
+    "\\ShoppingCartMvcUI\\Models"
   ],
-  "SelectedNode": "\\ShoppingCartMvcUI\\Repositories\\CartRepository.cs",
+  "SelectedNode": "\\ShoppingCartMvcUI\\Models\\Order.cs",
   "PreviewInSolutionExplorer": false
 }

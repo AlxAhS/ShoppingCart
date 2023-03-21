@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using ShoppingCartMvcUI;
+using ShoppingCartMvcUI.Repositories.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -46,7 +46,7 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Home}/{action=IndexQ}/{id?}");
 app.MapRazorPages();
 
 app.Run();
